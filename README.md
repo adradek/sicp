@@ -1,3 +1,3 @@
-`ruby solution.rb`
-`elixir solution.exs`
-`rustc solution.rs && ./solution`
+- `ruby solution.rb`
+- `elixir solution.exs`
+- `rustc solution.rs && ./solution`
