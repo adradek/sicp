@@ -5,7 +5,7 @@ module SmallestDivisor
     end
 
     def find_divisor(n, divisor)
-      return n if divisor ** 2 > n
+      return n if divisor * divisor > n
       return divisor if divides?(n, divisor)
       find_divisor(n, divisor + 1)
     end
